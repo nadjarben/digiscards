@@ -1,0 +1,38 @@
+export const SET_ALERT = "SET_ALERT";
+export const REMOVE_ALERT = "REMOVE_ALERT";
+
+export const TOGGLE_LOGIN = "TOGGLE_LOGIN";
+export const CHANGE_PAGE_LOGIN = "CHANGE_PAGE_LOGIN";
+export const SIGN_IN_START = "SIGN_IN_START";
+export const SIGN_IN_SUCCESS = "SIGN_IN_SUCCESS";
+export const SIGN_IN_FAIL = "SIGN_IN_FAIL";
+export const SIGN_IN_RESET = "SIGN_IN_RESET";
+export const FETCH_USER_START = "FETCH_USER_START";
+export const FETCH_USER_SUCCESS = "FETCH_USER_SUCCESS";
+export const FETCH_USER_FAIL = "FETCH_USER_FAIL";
+export const SIGN_UP_START = "SIGN_UP_START";
+export const SIGN_UP_SUCCESS = "SIGN_UP_SUCCESS";
+export const SIGN_UP_FAIL = "SIGN_UP_FAIL";
+export const SIGN_UP_RESET = "SIGN_UP_RESET";
+export const SIGN_OUT = "SIGN_OUT";
+export const ON_GOOGLE_SIGN_IN_START = "ON_GOOGLE_SIGN_IN_START";
+export const ON_GOOGLE_SIGN_IN_SUCCESS = "ON_GOOGLE_SIGN_IN_SUCCESS";
+export const ON_GOOGLE_SIGN_IN_FAILED = "ON_GOOGLE_SIGN_IN_FAILED";
+
+
+export const SET_PAGE = "SET_PAGE";
+export const ON_PLAN_CHOOSEN = 'ON_PLAN_CHOOSEN';
+
+export const SET_SOCIALS = "SET_SOCIALS";
+export const SET_LINKS = "SET_LINKS";
+export const SET_INFOS = "SET_INFOS";
+export const SET_ACTIVITIES = "SET_ACTIVITIES";
+export const SET_STYLE = "SET_STYLE";
+export const SET_DESCRIPTION = "SET_DESCRIPTION";
+export const SET_PICTURE = "SET_PICTURE";
+export const SET_LOGO = "SET_LOGO";
+export const SET_PICTURES_FOLDING = "SET_PICTURES_FOLDING";
+
+export const ON_CREATE_CARD_START = "ON_CREATE_CARD_START";
+export const ON_CREATE_CARD_SUCCESS = "ON_CREATE_CARD_SUCCESS";
+export const ON_CREATE_CARD_FAILED = "ON_CREATE_CARD_FAILED";

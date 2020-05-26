@@ -6,6 +6,8 @@ import flaghe from '../../../assets/images/flags/flag-he.png';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import { ListItem, Menu, Button } from '@material-ui/core';
 
+import "./LanguageSwitcher.scss"
+
 
 const StyledMenu = withStyles({
   paper: {
@@ -90,22 +92,22 @@ const LocaleSwitcher = ({ t, lang }) => {
         onClose={handleClose}
       >
         <div className={classes.div}>
-          <ListItem>
+          <ListItem className="lang-list-div">
           <div onClick={() => changeLanguage('en')} >
               <img src={flagen} alt="flagen" width="30px" />
-                English
+                <span>English</span>
             </div>
           </ListItem>
-          <ListItem>
+          <ListItem className="lang-list-div">
           <div onClick={() => changeLanguage('fr')} >
               <img src={flagfr} alt="flagfr" width="30px" />
-                Français
+                <span>Français</span>
             </div>
           </ListItem>
-          <ListItem>
+          <ListItem className="lang-list-div">
           <div onClick={() => changeLanguage('he')} >
               <img src={flaghe} alt="flaghe" width="30px" />
-              עברית
+              <span>עברית</span>
             </div>
           </ListItem>
         </div>

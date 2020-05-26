@@ -1,0 +1,13 @@
+.lang-list-div {
+    span {
+        padding-left: 1vw;
+    }
+}
+
+.lang-list-div:hover {
+    background-color: lightgray;
+
+    span {
+        padding-left: 0vw;
+    } 
+}

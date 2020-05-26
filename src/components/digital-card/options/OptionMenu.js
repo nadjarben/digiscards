@@ -5,6 +5,8 @@ import ModalAdd from './ModalAdd'
 import GetDigital from './GetDigital';
 import PrintQr from './PrintQr'
 
+import "./OptionMenu.scss"
+
 const OptionMenu = ({ style, qrPath }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -46,7 +48,7 @@ const OptionMenu = ({ style, qrPath }) => {
         }}
       >
         {options.map((option, id) => (
-          <div key={id} onClick={handleClose}>
+          <div className="option-list" style={{marginLeft: '-0.8vw'}} key={id} onClick={handleClose}>
             {option}
           <Divider />
           </div>

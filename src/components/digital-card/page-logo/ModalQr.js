@@ -1,14 +1,11 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Dialog from "@material-ui/core/Dialog";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
 import CloseIcon from "@material-ui/icons/Close";
-import Slide from "@material-ui/core/Slide";
+import { Slide, Typography, IconButton, Toolbar, AppBar, Dialog } from "@material-ui/core";
 import { mdiQrcode } from "@mdi/js";
 import Icon from "@mdi/react";
+
+import "./ModalQr.scss";
 
 const useStyles = makeStyles((theme) => ({
   title: {
@@ -55,9 +52,8 @@ const ModalShare = ({ style, social }) => {
       >
         <AppBar
           style={{
-            backgroundColor: style.bg,
-            color: style.modalText,
             position: "relative",
+            backgroundColor: 'black'
           }}
         >
           <Toolbar>
@@ -77,7 +73,7 @@ const ModalShare = ({ style, social }) => {
         <div className="container">
           <div className="row justify-content-center tt">
             <img
-              className="dgc-modal-qr"
+              className="modal-qr"
               src={social.qr.link}
               alt="qr digiscards"
             />

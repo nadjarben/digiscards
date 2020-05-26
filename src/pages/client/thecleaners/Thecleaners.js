@@ -1,33 +1,33 @@
 import React from 'react';
-import { DOMAIN } from "../../utils/environment";
+import { DOMAIN } from "../../../utils/environment";
 import { Helmet } from "react-helmet";
 import { useTranslation } from 'react-i18next'
 import SwipeableViews from "react-swipeable-views";
 
-import PageLogo from "../../components/digital-card/page-logo/PageLogo";
-import PagePicture from "../../components/digital-card/page-picture/PagePicture"
-import PageDescription from "../../components/digital-card/page-description/PageDescription";
-import LanguageSwitcher from "../../components/digital-card/page-logo/LanguageSwitcher";
-import OptionMenu from "../../components/digital-card/options/OptionMenu";
+import PageLogo from "../../../components/digital-card/page-logo/PageLogo";
+import PagePicture from "../../../components/digital-card/page-picture/PagePicture"
+import PageDescription from "../../../components/digital-card/page-description/PageDescription";
+import LanguageSwitcher from "../../../components/digital-card/page-logo/LanguageSwitcher";
+import OptionMenu from "../../../components/digital-card/options/OptionMenu";
 
 import ListItem from "@material-ui/core/ListItem";
 
 //import lang
-import flagen from "../../assets/images/flags/flag-en.png";
-import flagfr from "../../assets/images/flags/flag-fr.png";
-import flaghe from "../../assets/images/flags/flag-he.png";
+import flagen from "../../../assets/images/flags/flag-en.png";
+import flagfr from "../../../assets/images/flags/flag-fr.png";
+import flaghe from "../../../assets/images/flags/flag-he.png";
 
 //import qr
-import qr from "../../assets/client/thecleaners/qr-code.png";
+import qr from "../../../assets/client/thecleaners/qr-code.png";
 //page 1 imports images
-import logo from "../../assets/client/thecleaners/logo.png";
-import bg from "../../assets/client/thecleaners/bg.jpg";
+import logo from "../../../assets/client/thecleaners/logo.png";
+import bg from "../../../assets/client/thecleaners/bg.jpg";
 
 //page3 imports
-import img2 from "../../assets/client/thecleaners/img2.jpg";
-import img3 from "../../assets/client/thecleaners/img3.jpg";
-import img4 from "../../assets/client/thecleaners/img7.jpg";
-import img5 from "../../assets/client/thecleaners/img5.jpg";
+import img2 from "../../../assets/client/thecleaners/img2.jpg";
+import img3 from "../../../assets/client/thecleaners/img3.jpg";
+import img4 from "../../../assets/client/thecleaners/img7.jpg";
+import img5 from "../../../assets/client/thecleaners/img5.jpg";
 
 import "./Thecleaners.scss";
 
@@ -126,7 +126,7 @@ const TheCleaners = () => {
     web: {
       visible: true,
       xs: 3,
-      link: "https://thecleanersisrael.com/",
+      link: "https://www.thecleanersisrael.com/",
     },
     googleplus: {
       visible: false,
@@ -246,7 +246,6 @@ const TheCleaners = () => {
       </Helmet>
 
       <SwipeableViews
-        animateTransitions={true}
         onSwitching={reset}
         enableMouseEvents
       >

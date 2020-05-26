@@ -1,0 +1,15 @@
+.option-list {
+  margin-left: -0.5vw !important;
+  &:hover {
+    text-decoration: none !important;
+    background-color: lightgray !important;
+    text-decoration: unset;
+  }
+  @media (max-width: 1100px) {
+    margin-left: -2vw !important;
+  }
+
+  a:hover {
+    text-decoration: unset;
+  }
+}

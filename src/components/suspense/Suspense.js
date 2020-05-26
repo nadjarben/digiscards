@@ -16,11 +16,13 @@ const defaultOptions = {
 
 const Suspense = () => {
   return (
-    <FadeIn>
-      <div className="centered">
-        <Lottie options={defaultOptions} />
-      </div>
-    </FadeIn>
+    <div className="suspense">
+      <FadeIn>
+        <div className="centered">
+          <Lottie options={defaultOptions} />
+        </div>
+      </FadeIn>
+    </div>
   );
 };
 

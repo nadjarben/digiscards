@@ -18,10 +18,10 @@ const GetYour = () => {
       <div style={anim.bounce}>
         <p className="get-your-text">Get your Digital card Application</p>
         <p className="from-text">* From 85€ /year</p>
-        <Link to="/plan">
+        <Link to="/">
           <button className="btn-black">Get yours</button>
         </Link>
-        <Link to="/partners">
+        <Link to="/">
           <button className="btn-black ml-3">View models</button>
         </Link>
       </div>

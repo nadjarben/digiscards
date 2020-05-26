@@ -1,0 +1,24 @@
+{
+    "activity1": "Nettoyage à sec",
+    "activity2": "Repassage",
+    "activity3": "Nettoyage au kilo",
+
+    "Share": "Partager",
+    "shareWaMsg": "Tu cherches un super pressing ? https://sidewalk.agency/cleaners",
+
+    "Description": "Description",
+
+    "presentationText1": "Situé à Ashdod, le pressing The Cleaners met ses services à votre disposition dans la gestion de vos vêtements et votre linge.",
+    "presentationText2": "Nous avons à cœur la satisfaction de nos clients et leur proposons des services de lavage et de repassage adaptés à leur besoin.",
+    "presentationText3": "Vous n’avez plus à vous soucier de votre linge, nous nous en chargeons à votre place et à des prix imbattables.",
+
+    "accordionTitle1": "HORAIRES",
+    "accordionTitle2": "PRESTATIONS",
+    "accordionTitle1Text1": "Dimanche",
+    "accordionTitle1Text2": "8h30 - 19h",
+    "accordionTitle1Text3": "Vendredi et fêtes :",
+    "accordionTitle1Text4": "8h30 - 13h30",
+    "accordionTitle2Text1": ". Nettoyage à sec",
+    "accordionTitle2Text2": ". Repassage",
+    "accordionTitle2Text3": ". Lavage au kilo"
+}

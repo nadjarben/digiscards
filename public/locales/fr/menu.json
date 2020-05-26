@@ -1,0 +1,50 @@
+{
+    "menuTitle": "Menu",
+    "menuSubtitle":"Sélectionnez le menu dont vous avez besoins",
+    "menuFooter1": "Vous n'avez pas trouve votre bonheur ?",
+    "menuFooter2": "Rendez vous dans l'onglet a la carte.",
+
+    "withoutImpress": "sans impression",
+    "withImpress": "avec impression",
+    "revision": "*Les révisions comprennent les couleurs, les polices d’écritures... mais pas le design.",
+
+    "spMenuSubtitle": "Sidewalk Medias vous aide à poser les fondations de votre nouvelle société.",
+    "spBasLogo": "LOGO",
+    "spBasLogoSub": "2 choix, 2 révisions*",
+    "spBasCard": "CARTE DE VISITE",
+    "spBasCardSub": "1 choix, 2 révisions*",
+    "spBasFlyer": "FLYER",
+    "spBasFlyerSub": "1 choix, 2 révisions*",
+    "spProLogo": "LOGO",
+    "spProLogoSub": "3 choix, 3 révisions*",
+    "spProCard": "CARTE DE VISITE / MAGNET",
+    "spProCardSub": "3 choix, 2 révisions*",
+    "spProFlyer": "FLYER",
+    "spProFlyerSub": "2 choix, 3 révisions*",
+    "spProAnimatedlogo": "FLYER",
+    "spProAnimatedlogoSub": "1 choix, 2 révisions*",
+
+    "smMenuSubtitle" : "Sidewalk Medias vous accompagne au quotidien sur les réseaux sociaux.",
+    "smProCard": "CARTE DE VISITE DIGITALE OFFERTE",
+
+    "marryMenuSubtitle": "Sidewalk Medias vous aide à préparer votre jour J en toute sérénité.",
+    "marryBasInvi": "INVITATIONS",
+    "marryBasInviSub": "1 choix, 2 révisions*",
+    "marryBasEtiq": "ETIQUETTES",
+    "marryBasEtiqSub": "1 choix, 2 révisions*",
+    "marryBasPrice" : "à partir de 75 €",
+    "marryProInvi": "INVITATIONS",
+    "marryProInviSub": "2 choix, 3 révisions*",
+    "marryProEtiq": "ETIQUETTES",
+    "marryProEtiqSub": "2 choix, 3 révisions*",
+    "marryProVideo": "VIDEO SAVE THE DATE",
+    "marryProVideoSub": "1 choix, 5 révisions*",
+    "marryProPrice" : "à partir de 375 €",
+
+    "baMenuSubtitle": "Sidewalk Medias au service des restaurateurs",
+    "baMenuPrice": "à partir de 60 €",
+
+    "webMenuSubtitle": "Sidewalk Medias optimise votre site internet.",
+    "webMenuPrice": "à partir de 375 €"
+
+}

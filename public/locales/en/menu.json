@@ -1,0 +1,49 @@
+{
+    "menuTitle": "Menu",
+    "menuSubtitle":"Select the menu you need",
+    "menuFooter1": "Didn't find what you were looking for?",
+    "menuFooter2": "Go to the a la carte menu.",
+
+    "withoutImpress": "without impression",
+    "withImpress": "with impression",
+    "revision": "* Revisions include colors, fonts ... but not design.",
+
+    "spMenuSubtitle": "Sidewalk Medias helps you lay the foundation for your new company.",
+    "spBasLogo": "LOGO",
+    "spBasLogoSub": "2 choices, 2 revisions*",
+    "spBasCard": "CARTE DE VISITE",
+    "spBasCardSub": "1 choice, 2 revisions*",
+    "spBasFlyer": "FLYER",
+    "spBasFlyerSub": "1 choice, 2 revisions*",
+    "spProLogo": "LOGO",
+    "spProLogoSub": "3 choices, 3 revisions*",
+    "spProCard": "VISIT CARD / MAGNET",
+    "spProCardSub": "3 choices, 2 revisions*",
+    "spProFlyer": "FLYER",
+    "spProFlyerSub": "2 choices, 3 revisions*",
+    "spProAnimatedlogo": "ANIMATED LOGO",
+    "spProAnimatedlogoSub": "1 choice, 2 revisions*",
+
+    "smMenuSubtitle" : "Sidewalk Medias supports you every day on social networks.",
+    "smProCard": "FREE DIGITAL CARD",
+
+    "marryMenuSubtitle": "Sidewalk Medias helps you prepare for your D-Day with confidence.",
+    "marryBasInvi": "INVITATIONS",
+    "marryBasInviSub": "1 choice, 2 revisions*",
+    "marryBasEtiq": "LABELS",
+    "marryBasEtiqSub": "1 choice, 2 revisions*",
+    "marryBasPrice" : "from 75 €",
+    "marryProInvi": "INVITATIONS",
+    "marryProInviSub": "2 choices, 3 revisions*",
+    "marryProEtiq": "LABELS",
+    "marryProEtiqSub": "2 choices, 3 revisions*",
+    "marryProVideo": "VIDEO SAVE THE DATE",
+    "marryProVideoSub": "1 choice, 5 revisions*",
+    "marryProPrice" : "from 375 €",
+
+    "baMenuSubtitle": "Sidewalk Medias services for the restaurateurs",
+    "baMenuPrice": "from 60 €",
+
+    "webMenuSubtitle": "Sidewalk Medias optimizes your website.",
+    "webMenuPrice": "from 375 €"
+}

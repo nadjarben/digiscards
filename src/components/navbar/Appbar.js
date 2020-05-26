@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
+
 import Account from "./Account";
 import LanguageSwitcher from "./LanguageSwitcher";
-import { API } from '../../utils/environment'
 
 export default function MenuAppBar(props) {
   const useStyles = makeStyles((theme) => ({
@@ -34,9 +33,6 @@ export default function MenuAppBar(props) {
   }));
   const classes = useStyles();
 
-  console.log(API, 'dfdsfdfdsdsf')
-  console.log(process.env)
-
   return (
     <div className={classes.root}>
       <AppBar position="static" className={classes.appbar}>
@@ -44,7 +40,7 @@ export default function MenuAppBar(props) {
           <LanguageSwitcher />
           <Link to="/" className={classes.title}>
             <Typography variant="h6" className={classes.title}>
-              {API} /
+              DIGISCARDS
             </Typography>
           </Link>
           <Account />

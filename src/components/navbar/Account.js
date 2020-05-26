@@ -21,10 +21,6 @@ const Account = () => {
     setAnchorEl(null);
   };
 
-  const handleLogin = (page) => {
-    dispatch(toggleLogin(page));
-  };
-
   return (
     <div>
       <IconButton

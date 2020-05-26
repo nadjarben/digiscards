@@ -1,0 +1,22 @@
+{
+    "navbarHome": "ACCUEIL",
+    "navbarBlog": "BLOG",
+    "navbarAccount": "COMPTE",
+    "navbarSignin": "CONNEXION",
+    "navbarSignout": "DECONNEXION",
+    "navbarSignup": "INSCRIPTION",
+    "navbarBottomHome": "Accueil",
+    "navbarBottomContact": "Contact",
+    "navbarBottomNetwork": "Reseaux",
+
+    "modalDevisDevis": "Contactez nous",
+    "modalTab1Btn1": "Devis",
+    "modalTab1Btn2": "Question",
+    "modalTab1Btn3": "Collaboration",
+    "modalTab3Input1": "Name",
+    "modalTab3Input2": "Phone",
+    "modalTab3Input3": "Message",
+    "modalTab3Btn": "Send",
+    "modalAlert": "Your message has been sent, you will be contact sooner.",
+    "modalDevisLocali": "Find us"
+}

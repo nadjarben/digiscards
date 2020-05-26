@@ -152,7 +152,6 @@ export const passwordNotMatch = (error) => (dispatch) => {
 };
 
 export const loginWithGoogle = (response, error) => (dispatch) => {
-  console.log(response, 'dffdgdfgkfdknl')
   dispatch({
     type: ON_GOOGLE_SIGN_IN_START,
   });

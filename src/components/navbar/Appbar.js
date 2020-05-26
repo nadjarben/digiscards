@@ -35,6 +35,7 @@ export default function MenuAppBar(props) {
   const classes = useStyles();
 
   console.log(API, 'dfdsfdfdsdsf')
+  console.log(process.env)
 
   return (
     <div className={classes.root}>

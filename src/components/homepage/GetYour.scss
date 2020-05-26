@@ -1,0 +1,122 @@
+
+.get-your-div {
+  padding: 30px 1px 30px 1px;
+  margin-top: 40vh;
+  border-radius: 30% 70% 30% 30% / 30% 30% 70% 70%;
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  animation: morphing 10s infinite;
+  overflow: hidden;
+  margin-left: -2vw;
+  color: white;
+  @media (max-width: 1100px) {
+    margin-top: 50vh;
+    padding: none;
+    border-radius: none;
+    box-shadow: none;
+    animation: none;
+    overflow: none;
+    margin-left: none;
+  }
+}
+
+.get-your-text {
+  font-size: 40px;
+  font-style: bold;
+  padding: 5px;
+  @media (max-width: 1100px) {
+    font-size: 30px;
+  }
+}
+
+.video-div {
+  height: 100vh;
+}
+
+.video-background {
+  background: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -99;
+  &::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.75);
+  }
+}
+.iframe {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  object-fit: cover;
+  @media (max-width: 1100px) {
+    height: 50%;
+    position: relative;
+    padding-top: 8vh;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground {
+    height: 300%;
+    top: -100%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+.btn-black {
+  margin-top: 35px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  background-color: #343434;
+  color: #1ec503;
+  position: relative;
+  z-index: 99;
+
+  &:hover {
+    transition: 0.2s all;
+    background-color: #1ec503;
+    color: white;
+    &:before {
+      transform: scale(1.15, 1.4);
+    }
+  }
+
+  &:before {
+    content: " ";
+    position: absolute;
+    background-color: #343434;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transform: scale(1);
+    transition: all 0.3s cubic-bezier(0.16, 0.8, 0.66, 1.54);
+  }
+  @media (max-width: 1100px) {
+    font-size: 20px;
+  }
+
+}

@@ -1,0 +1,46 @@
+
+@mixin centered {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    @include smallerThanDesktop {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  @mixin smallerThanDesktop {
+    @media (max-width: "1000px") {
+      @content;
+    }
+  }
+
+
+.footer {
+    color: white;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background: linear-gradient(90deg, #707070 0%, #474747 100%);
+    &__left {
+      margin-left: auto;
+    }
+  
+    a {
+      color: white;
+    }
+    p {
+      display: flex;
+      margin: 0;
+      @include centered;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    &__text {
+      @include centered;
+    }
+    &__logo {
+      width: 80px;
+      margin-top: -0.7vh;
+    }
+  }

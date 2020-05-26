@@ -2,6 +2,8 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import ModalContact from './ModalContact';
 
+import "./Contact.scss"
+
 const Contact = () => {
   const { t } = useTranslation("homepage");
   return (

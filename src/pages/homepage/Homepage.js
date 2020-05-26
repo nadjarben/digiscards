@@ -7,7 +7,6 @@ import Contact from "../../components/homepage/Contact";
 import Footer from "../../components/footer/Footer";
 
 import video from "../../assets/videos/presentation.mp4";
-import "./Homepage.scss";
 
 const Homepage = () => {
   return (

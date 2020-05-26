@@ -1,0 +1,54 @@
+
+
+.contact {
+    color: black;
+    text-align: center;
+    background-color: #ebebeb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &__title {
+      font-size: 36px;
+  
+      .colored {
+        font-size: inherit;
+        color: #1ec503;
+      }
+    }
+  
+    button {
+      margin-top: 15px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 4px;
+      padding: 12px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: none;
+      background-color: #343434;
+      color: white;
+      position: relative;
+      z-index: 99;
+  
+      &:hover {
+        transition: 0.2s all;
+        &:before {
+          transform: scale(1.15, 1.4);
+        }
+      }
+  
+      &:before {
+        content: " ";
+        position: absolute;
+        background-color: #343434;
+        top: 0;
+        left: 0;
+        border-radius: 4px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        z-index: -1;
+        transform: scale(1);
+        transition: all 0.3s cubic-bezier(0.16, 0.8, 0.66, 1.54);
+      }
+    }
+  }

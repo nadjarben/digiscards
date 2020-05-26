@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next'
 
 import logo from '../../assets/images/icons/logo-sidewalk-white.png'
+import "./Footer.scss";
 
 const Footer = () => {
   const { t } = useTranslation("homepage");

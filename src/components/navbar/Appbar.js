@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
 
-import Account from "./Account";
+//import Account from "./Account";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function MenuAppBar(props) {
@@ -43,7 +43,7 @@ export default function MenuAppBar(props) {
               DIGISCARDS
             </Typography>
           </Link>
-          <Account />
+          {/*<Account /> */}
         </Toolbar>
       </AppBar>
     </div>

@@ -10,12 +10,11 @@
   color: white;
   @media (max-width: 1100px) {
     margin-top: 50vh;
-    padding: none;
-    border-radius: none;
-    box-shadow: none;
-    animation: none;
-    overflow: none;
-    margin-left: none;
+    border-radius: unset;
+    box-shadow: unset;
+    animation: unset;
+    overflow: unset;
+    margin-left: unset;
   }
 }
 
@@ -84,6 +83,7 @@
   font-weight: bold;
   border-radius: 4px;
   padding: 18px;
+  width: 200px;
   padding-left: 20px;
   padding-right: 20px;
   border: none;
@@ -116,7 +116,8 @@
     transition: all 0.3s cubic-bezier(0.16, 0.8, 0.66, 1.54);
   }
   @media (max-width: 1100px) {
-    font-size: 20px;
+    font-size: 15px;
+    width: 150px;
   }
 
 }

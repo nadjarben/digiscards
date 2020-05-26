@@ -1,0 +1,16 @@
+{
+    "name": "The Cleaners",
+    "start_url": "/thecleaners",
+    "scope": "/thecleaners",
+    "short_name": "The Cleaners",
+    "display": "standalone",
+    "theme_color": "#033146",
+    "background_color": "#033146",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+    }

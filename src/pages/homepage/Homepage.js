@@ -28,7 +28,6 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-
       <Contact />
       <Footer />
     </div>

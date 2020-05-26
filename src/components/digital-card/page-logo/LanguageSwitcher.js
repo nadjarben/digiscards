@@ -1,13 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next'
-import flagen from "../../assets/images/flags/flag-en.png";
-import flagfr from "../../assets/images/flags/flag-fr.png";
-import flaghe from "../../assets/images/flags/flag-he.png";
-import { withStyles } from '@material-ui/core/styles';
-import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu';
-import ListItem from '@material-ui/core/ListItem';
+import flagfr from '../../../assets/images/flags/flag-fr.png';
+import flagen from '../../../assets/images/flags/flag-en.png';
+import flaghe from '../../../assets/images/flags/flag-he.png';
+import { withStyles, makeStyles } from '@material-ui/core/styles';
+import { ListItem, Menu, Button } from '@material-ui/core';
 
 
 const StyledMenu = withStyles({

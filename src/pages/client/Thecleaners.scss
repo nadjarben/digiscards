@@ -1,0 +1,212 @@
+.dgc-lang {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+.dgc-header-image {
+    height: 55vh;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.dgc-logo {
+    width: 1%;
+    margin-top: -12vh;
+    border-style: solid;
+}
+.dgc-societe {
+    font-size: 25px;
+    font-weight: bold;
+}
+.dgc-activite {
+    font-size: 18px;
+    font-weight: bold;
+}
+.dgc-logo-round {
+    border-radius: 100%;
+    border-style: solid;
+    padding: 8px;
+    background-color: white;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.dgc-wa-div-btn {
+    padding-left: 15px;
+}
+.dgc-wa-btn {
+    background-color: #4AC959;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    width: 100px; 
+    height: 28px;
+}
+
+.dgc-presentation {
+    padding-top: 20vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+
+.dgc-presentation-text {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+.dgc-accordion {
+    padding-top: 5vh;
+}
+.dgc-accordion-text {
+    font-weight: bold;
+}
+.dgc-accordion-subtext {
+    
+}
+.dgc-image-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+}
+.dgc-grid-image {
+    height: 40vh !important;
+}
+
+.dgc-share-btn {
+    border-color: white !important;
+    color: white !important;
+}
+.dgc-share-logo {
+    color: black !important;
+}
+.dgc-modal-appbar {
+    position: relative !important;
+}
+.dgc-modal-qr {
+    margin-top: 15vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    height: 30%;
+}
+//si prix
+ul.leaders {
+    padding:        0;
+  }
+  ul.leaders li {
+    display:        table;
+  }
+  ul.leaders li span {
+    display:        table-cell;
+  }
+  ul.leaders li span:first-child { /* TITLE */
+    position:       relative;
+    overflow:       hidden;       /* Don't go underneath the price */
+  }
+  ul.leaders li span:first-child:after { /* DASHES */
+    content:        "";
+    position:       absolute;
+    bottom:         0.5em;        /* Set as you want */       
+    margin-left:    0.5em;        /* Keep same for the next span's left padding */
+    width:          100%;
+    border-bottom:  1px dashed #000;
+  }
+  ul.leaders li span + span {     /* PRICE */
+    text-align: right;
+    width: 1%;           /* Trick it */
+    vertical-align: bottom;       /* Keep Price text bottom-aligned */
+    padding-left:   0.5em;
+    /* white-space: nowrap;       /* Uncomment if needed */
+  }
+@media only screen and (max-width: 600px) {
+    .dgc-html {
+        background-color: lightgray;
+    }
+    .dgc-lang {
+        position: absolute;
+        right: 1%;
+        top: 1%;
+    }
+    .dgc-page-logo {
+        min-height: 100vh;
+    }
+    .dgc-header-image {
+        width: 100%;
+        height: 40vh;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: #ffffff;
+    }
+    .dgc-societe {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .dgc-activite {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .dgc-logo-1 {
+        padding-left: 10%;
+        padding-right: 10%;
+    } 
+    .dgc-presentation {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .dgc-presentation-text {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0;
+    }
+    .dgc-accordion {
+        padding-top: 5vh;
+    }
+    .dgc-grid-image {
+        height: 20vh !important;
+    }
+    .dgc-modal-qr {
+        margin-top: 25vh;
+        width: 80% !important;
+        height: 80% !important;
+    }
+   
+}
+//iphone x
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) { 
+
+    .dgc-titlex {
+            margin-top: 9vh !important;
+    }
+}
+//iphone 11
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) { 
+
+    .dgc-titlex {
+            margin-top: 12vh !important;
+    }
+    .dgc-sharex {
+        margin-top: 8vh !important;
+    }
+}
+//pc
+@media (min-width: '1000px') {
+    .dgc-bg {
+        height: 350px !important;
+        width: 60% !important;
+    }
+}

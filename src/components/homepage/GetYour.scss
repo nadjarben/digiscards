@@ -3,24 +3,27 @@
   padding: 30px 1px 30px 1px;
   margin-top: 40vh;
   border-radius: 30% 70% 30% 30% / 30% 30% 70% 70%;
-  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.9);
   animation: morphing 10s infinite;
+  color: white;
   overflow: hidden;
   margin-left: -2vw;
-  color: white;
   @media (max-width: 1100px) {
-    margin-top: 50vh;
+    position: absolute;
+    bottom: 0;
     border-radius: unset;
     box-shadow: unset;
     animation: unset;
     overflow: unset;
     margin-left: unset;
+    background-color: black;
+    color: white;
   }
 }
 
 .get-your-text {
-  font-size: 40px;
-  font-style: bold;
+  font-size: 38px;
+  font-weight: bold;
   padding: 5px;
   @media (max-width: 1100px) {
     font-size: 30px;
@@ -58,7 +61,7 @@
   position: absolute;
   object-fit: cover;
   @media (max-width: 1100px) {
-    height: 50%;
+    height: 55%;
     position: relative;
     padding-top: 8vh;
   }
@@ -79,11 +82,11 @@
 
 .btn-black {
   margin-top: 35px;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   border-radius: 4px;
   padding: 18px;
-  width: 200px;
+  width: 170px;
   padding-left: 20px;
   padding-right: 20px;
   border: none;

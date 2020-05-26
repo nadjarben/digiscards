@@ -21,7 +21,7 @@ export default function MenuAppBar(props) {
       marginRight: theme.spacing(2),
     },
     title: {
-      fontSize: "25px",
+      fontSize: "18px",
       flexGrow: 1,
       paddingLeft: "1vw",
       color: "white",

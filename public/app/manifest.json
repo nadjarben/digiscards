@@ -1,0 +1,15 @@
+{
+    "name": "Digis Cards",
+    "short_name": "DigisCards",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#1ec503",
+    "background_color": "#1ec503",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+    }

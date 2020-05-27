@@ -97,7 +97,7 @@ const PageLogo = ({
           </h1>
           <TextLoop className="dgc-activite">
             {subtitles.map((s, id) => (
-              <p style={{ color: style.subtitles }} key={id}>
+              <p style={{ color: style.subtitles, marginTop:'3vh' }} key={id}>
                 {s}
               </p>
             ))}

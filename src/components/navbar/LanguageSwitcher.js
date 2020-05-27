@@ -2,12 +2,13 @@ import React from 'react';
 import { useTranslation } from 'react-i18next'
 import flagen from "../../assets/images/flags/flag-en.png";
 import flagfr from "../../assets/images/flags/flag-fr.png";
-import flaghe from "../../assets/images/flags/flag-he.png";
 import { withStyles } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import ListItem from '@material-ui/core/ListItem';
+
+import "./LanguageSwitcher.scss"
 
 
 const StyledMenu = withStyles({
@@ -80,7 +81,7 @@ const LocaleSwitcher = ({ t, lang }) => {
             <img src={flagfr} alt="flagfr" width="25px" />
         )}
         { i18n.language === 'he' && (
-            <img src={flaghe} alt="flaghe" width="25px" />
+            <img src={flagen} alt="flagen" width="25px" />
         )}
        
       </Button>
@@ -93,22 +94,16 @@ const LocaleSwitcher = ({ t, lang }) => {
         onClose={handleClose}
       >
         <div className={classes.div}>
-          <ListItem>
+          <ListItem className="language-item">
           <div onClick={() => changeLanguage('en')} >
               <img src={flagen} alt="flagen" width="30px" />
                 English
             </div>
           </ListItem>
-          <ListItem>
+          <ListItem className="language-item">
           <div onClick={() => changeLanguage('fr')} >
               <img src={flagfr} alt="flagfr" width="30px" />
                 Français
-            </div>
-          </ListItem>
-          <ListItem>
-          <div onClick={() => changeLanguage('he')} >
-              <img src={flaghe} alt="flaghe" width="30px" />
-              עברית
             </div>
           </ListItem>
         </div>

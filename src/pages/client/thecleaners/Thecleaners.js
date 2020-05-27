@@ -43,7 +43,8 @@ const TheCleaners = () => {
 
   const button = t("לשתף");
   const message = " אתה מחפש מכבסה מעולה ? || ";
-  const qrPath = `${DOMAIN}/static/images/${name}/qr-code.png`;
+  const qrPath = `${DOMAIN}/${name}/qr-code.png`;
+
 
   const subtitles = [
     t("Laundry"),
